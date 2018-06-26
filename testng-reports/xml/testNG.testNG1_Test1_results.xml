@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestNG Regression Suite"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.095">
+  <properties />
+  
+  
+            <testcase name="f" time="0.026" classname="testNG.testNG1_Test1" />
+                <testcase name="f1" time="0.013" classname="testNG.testNG1_Test1" />
+                <testcase name="f1" time="0.042" classname="testNG.testNG1_Test1" />
+                <testcase name="f" time="0.014" classname="testNG.testNG1_Test1" />
+      
+</testsuite>

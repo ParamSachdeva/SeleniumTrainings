@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IFSC Regression Suite"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="33.650">
+  <properties />
+  
+  
+            <testcase name="IFSC" time="33.650" classname="testNG.testNG2_Test2" />
+      
+</testsuite>

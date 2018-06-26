@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNG Regression Suite" parallel="false"
+	thread-count="2" varbose="10">
+
+<!-- 
+	<groups>
+		<define name="all">
+			<exclude name="functest" />
+			<include name="checkintest" />
+		</define>
+		<run>
+			<include name="all" />
+		</run>
+	</groups> -->
+	
+	
+<!-- 
+	<methods>
+		<include name=".*smoke.*" />
+	</methods>
+ -->
+
+	<!-- <parameter name="browser" value="firefox" /> -->
+	<test name="Paytm Regression Suite">
+		<classes>
+			<class name="testNG.testNG2_Test1" />
+		</classes>
+	</test> <!-- Test1 -->
+
+
+	<!-- <test name="IFSC Regression Suite">
+		<classes>
+			<class name="testNG.testNG2_Test2" />
+		</classes>
+	</test> Test2
+ -->
+	<!-- <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners> -->
+
+</suite> <!-- Suite -->
