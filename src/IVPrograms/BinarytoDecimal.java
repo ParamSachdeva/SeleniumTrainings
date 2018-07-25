@@ -3,7 +3,7 @@ package IVPrograms;
 public class BinarytoDecimal {
 
 	public static void main(String[] args) {
-		int test = 101;
+		int test = 10111;
 		int temp,decimal = 0,index = 0; 
 		while(test%10 != 0)
 		{			

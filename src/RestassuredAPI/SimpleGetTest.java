@@ -12,15 +12,14 @@ public class SimpleGetTest {
 	{   
 		// Specify the base URL to the RESTful web service
 
-//		RestAssured
-//		.when()
-//		.get("url")
-//		.then()
-//		.statusCode(200)
-//		.assertThat()
-
+		RestAssured
+		.when()
+		.get("url")
+		.then()
+		.statusCode(200)
+		.assertThat()
+		.body("WindSpeed", hasItems("1.30", "5.25"));
 		
-		//.body("WindSpeed", hasItems("1.30", "5.25"));
 		//.body(hasXPath("/employees/employee/first-name"));//, containsString("Ja")));
 		
 		//.body("Humidity", equals("55 Percent"));
