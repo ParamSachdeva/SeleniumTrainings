@@ -10,7 +10,8 @@ public class Dog {
 	
 	
 	public static void main(String[] args) {
-			
+		//static Dog  d = new Dog();
+		
 		String xyz = new String("hello");
 		
 		
