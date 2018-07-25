@@ -1,3 +1,5 @@
+package BasicUtilities;
+
 //http://www.apache.org/dyn/closer.cgi/logging/log4j/1.2.17/log4j-1.2.17.zip
 
 import org.apache.log4j.LogManager;

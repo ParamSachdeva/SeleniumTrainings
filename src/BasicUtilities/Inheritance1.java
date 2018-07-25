@@ -1,3 +1,5 @@
+package BasicUtilities;
+
 public class Inheritance1 {
 
 	public int cadence;
